@@ -49,4 +49,13 @@ public class Employee {
     public void setManager(final String manager) {
         this.manager = manager;
     }
+
+    public static int countUp (String name) {
+        //base case
+        if (name == "Veronica") {
+            return 0;
+        }
+        //recursive case
+        return countUp(getManager());
+    }
 }
