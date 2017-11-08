@@ -43,7 +43,7 @@ public class Employee {
     }
 
     /**
-     * Setter for manager.
+     * Setter for manager...
      * @param manager
      */
     public void setManager(final String manager) {
